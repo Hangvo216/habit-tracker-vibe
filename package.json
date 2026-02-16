@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx -y vite",
-    "build": "echo 'Build completed - app ready in src/'",
+    "build": "vite build",
     "preview": "npx -y vite preview"
   }
 }
