@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiny Habit Tracker</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 Tiny Habit Tracker</h1>
+      <p class="subtitle">Build consistency, one day at a time</p>
+    </header>
+
+    <main>
+      <!-- Add Habit Form -->
+      <section class="add-habit-section">
+        <form id="addHabitForm" class="add-habit-form">
+          <input 
+            type="text" 
+            id="habitInput" 
+            placeholder="Enter a new habit..." 
+            maxlength="50"
+            autocomplete="off"
+            required
+          >
+          <button type="submit" class="btn btn-primary">Add Habit</button>
+        </form>
+      </section>
+
+      <!-- Habits List -->
+      <section class="habits-section">
+        <div id="habitsList" class="habits-list">
+          <!-- Habits will be dynamically inserted here -->
+        </div>
+        
+        <div id="emptyState" class="empty-state">
+          <div class="empty-icon">📝</div>
+          <p>No habits yet. Start by adding your first habit!</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Your data is stored locally in your browser</p>
+    </footer>
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

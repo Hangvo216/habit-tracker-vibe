@@ -1,0 +1,11 @@
+{
+  "name": "tiny-habit-tracker",
+  "version": "1.0.0",
+  "description": "A simple habit tracker with streaks",
+  "type": "module",
+  "scripts": {
+    "dev": "npx -y vite",
+    "build": "echo 'Build completed - app ready in src/'",
+    "preview": "npx -y vite preview"
+  }
+}
