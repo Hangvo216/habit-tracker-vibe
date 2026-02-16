@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx -y vite",
-    "build": "vite build",
+    "build": "npx -y vite build",
     "preview": "npx -y vite preview"
   }
 }
